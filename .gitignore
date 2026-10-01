@@ -1,0 +1,36 @@
+# Binários e executáveis compilados
+bin/
+*.exe
+*.exe;
+*.dll
+*.so
+*.dylib
+payflow-engine
+
+# Arquivos de Teste e Cobertura
+*.out
+*.test
+coverage.txt
+coverage.html
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.local
+*.pem
+*.key
+
+# IDEs e Editores de Código
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs e Dados Temporários
+*.log
+tmp/
+.vendor/
+
+# Ferramentas de desenvolvimento local
+.air.toml

@@ -1,5 +1,6 @@
 # Binários e executáveis compilados
 bin/
+build/
 *.exe
 *.exe;
 *.dll
